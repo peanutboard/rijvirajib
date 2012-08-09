@@ -1,0 +1,266 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	color: #8e8e8e;
+	background-color: #ECF1F2;
+	font: 12px/20px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	overflow-x:hidden;
+}
+a {
+	color:#76949F;
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+.follow {
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	background-color:#76949F;
+	display:block;
+	float:right;
+	margin-top:10px;
+	width:60px;
+	color:white;
+	opacity: 0.6;
+}
+.follow:hover {
+	opacity: 1;	
+}
+.box {
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border: none;
+	float:left;
+	outline-color:-moz-use-text-color;
+	outline-style:none;
+	outline-width:medium;
+	padding:10px;
+	color:#FFF;
+	cursor:pointer;
+}
+.box a {
+	display:block;
+	text-decoration:none;
+	color:#FFF;
+}
+.box a:hover {
+	display:block;
+	text-decoration:none;
+	opacity:0.5;
+}
+.big {
+	height:100px;
+	width:75px;
+	margin:6px;
+	position:fixed;
+}
+.small {
+	height:37px;
+	width:75px;
+	padding-top:10px;
+}
+h1 {
+	color:#FFF;
+	font-size:89px;
+	text-align:center;
+	display:block;
+	line-height:80px;
+}
+.description {
+	display:block;
+	opacity:0.6;
+	text-align:center;
+	font-weight:bold;
+	font-size:13px;
+}
+.small_description {
+	display:block;
+	opacity:0.6;
+	padding-top:10px;
+	text-align:center;
+	font-weight:bold;
+	font-size:13px;
+}
+#main {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -90px;
+	margin-left: -210px;
+	text-align:right;
+}
+.spch-bub-inside {
+	max-width:200px;
+	min-width:200px;
+	position:absolute;
+	right:-397px;
+	top:-95px;
+	z-index:6;
+}
+div.spch-bub-inside {
+	text-decoration: none;
+}
+.spch-bub-inside div {
+	font-style: normal;
+}
+.spch-bub-inside div {
+	background: #FFF;
+	padding: 6px;
+	-moz-border-radius: 0.25em;
+	-webkit-border-radius: 0.25em;
+	border-radius: 0.25em;
+	position: relative;
+	text-align:left;
+	max-height:100px;
+	min-height:100px;
+}
+.spch-bub-inside .point {
+	width: 0;
+	height: 0;
+	position: absolute;
+	bottom:-4px;
+	right:10px;
+	display: block;
+	border-right: 0.45em solid #FFF;
+	border-bottom: 0.45em solid #FFF; /* IE fix */
+	border-bottom: 0.45em solid rgba(0, 0, 0, 0);
+	overflow: hidden; /* IE fix */
+}
+.page {
+	margin-left:65px;
+	margin-top:-250px;
+	text-align:left;
+	width:420px;
+}
+.page p {
+    text-align: justify;
+}
+.blog {
+	text-align:left;
+	width:500px;
+	right:-540px;
+	top:0;
+	position:absolute;
+	background-color:#FFF;
+	height:100%;
+	padding-left:20px;
+	padding-right:20px;
+	overflow: auto;
+	text-align:center;
+}
+ol.tumblr_posts {
+	padding:0;
+	margin:0;
+}
+ol.tumblr_posts li.tumblr_post {
+	list-style:none;
+	border-bottom:1px dotted #556270;
+	margin-bottom:30px;
+	padding-bottom:10px;
+}
+.title {
+	display:block;
+	color:#83AFAC;
+	margin-bottom: 0px;
+	font-size: 2.2em;
+	line-height: 36px;
+	font-weight: lighter;
+	text-transform:uppercase;
+	text-align:left;	
+}
+.tumblr_title {
+	display:block;
+	color:#83AFAC;
+	margin-bottom: 0px;
+	font-size: 1.2em;
+	line-height: 36px;
+	font-weight: lighter;
+	text-transform:uppercase;
+	text-align:left;	
+}
+.tumblr_body {
+	text-align:left;	
+}
+.tumblr_body ul {
+	margin-left:25px;	
+}
+.tumblr_body ul li {
+	text-align:left;	
+}
+.tumblr_caption {
+	text-align:left;	
+}
+.tumblr_body strong {
+	font-weight:bold;	
+}
+.tumblr_body p {
+	text-align:left;
+	padding-top:5px;
+	padding-bottom:5px;	
+}
+.tumblr_quote{
+	text-align:left;
+	padding-left:20px;
+	padding-right:20px;
+}
+.tumblr_open_quote {
+	color:#CC3333;
+	display:block;
+	font-size:58px;
+	font-weight:bold;
+	left:10px;
+	margin-top:10px;
+	position:absolute;
+}
+.tumblr_close_quote {
+	color:#CC3333;
+	display:block;
+	font-size:58px;
+	font-weight:bold;
+	margin-top:-10px;
+	position:absolute;
+	right:10px;
+}
+.tumblr_source {
+	padding-top:10px;
+	text-align:right;
+	font-style:italic;	
+}
+.tumblr_photo {
+	border:5px solid #DFDFDF;
+	margin:0 10px 0 0;
+	padding:1px;
+	max-width:480px;	
+}
+#load_more {
+	width:100%;
+	height:20px;
+	background-color:#DFDFDF;
+	cursor:pointer;
+	margin-bottom:10px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+}
+blockquote {
+	margin:10px 15px;
+	padding-left:10px;
+	border-left:#DFDFDF 3px solid;
+	color:#aaaaaa;
+}
+blockquote p{
+	padding-bottom:0px !important;
+}
+#flickr ul {
+	list-style:none;
+	padding:0px;
+	margin:0px;
+}
+.tumblr_link_post {
+	text-align:left;	
+}
+.tumblr_link {
+	font-size:18px;	
+}

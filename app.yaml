@@ -1,0 +1,18 @@
+application: rijvirajib
+version: 2
+runtime: python
+api_version: 1
+
+handlers:
+- url: /assets
+  static_dir: assets
+
+- url: /static
+  static_dir: assets
+
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
+
+- url: .*
+  script: main.py
