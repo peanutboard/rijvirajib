@@ -10,7 +10,7 @@
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script type="text/javascript" src="assets/js/site.js"></script>
     <script type="text/javascript">
-    $.getJSON("http://twitter.com/statuses/user_timeline/rijvirajib.json?callback=?", function(data) {
+    $.getJSON("http://api.twitter.com/1/statuses/user_timeline/rijvirajib.json?callback=?", function(data) {
         $("#twitter").html(data[0].text);
     });
     </script>
